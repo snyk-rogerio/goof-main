@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-PATHPARSE-1077067:
+    - '*':
+        reason: ' Added from CLI'
+        expires: 2021-09-09T00:00:00.000Z
+  'snyk:lic:npm:goof:GPL-2.0':
+    - '*':
+        reason: ' Added from CLI through .snyk file and snyk ignores'
+        expires: 2021-09-09T00:00:00.000Z
+        created: 2021-09-03T19:20:23.214Z
+patch: {}
